@@ -21,16 +21,16 @@ body{
 
 @keyframes animate{
     0%,100%{
-        background-image: url("images/img5.jpg");
+        background-image: url("images/bank-back.jpg");
     }
     25%{
-        background-image: url("images/img6.jpg");
+        background-image: url("images/bank-back.jpg");
     }
     50%{
-        background-image: url("images/img7.jpg");
+        background-image: url("images/bank-back.jpg");
     }
     75%{
-        background-image: url("images/img8.jpg");
+        background-image: url("images/bank-back.jpg");
     }
 }
 
@@ -68,7 +68,7 @@ nav a img{
     transition: border 0.5ms ease-in-out;
 }
 .navbar ul li a:hover, a:active{
-    background-color: #0097e6;
+    background-color: #75ecb1;
     border: 2px solid rgb(0, 0, 0);
     
 }
@@ -96,6 +96,20 @@ nav a img{
     font-size: 35px;
     padding-bottom: 20px;
 }
+.Text .button{
+    background-color: #ddaa81;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px; 
+    position: relative;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: border 0.5ms ease-in-out;
+}
+.Text .button:hover,.button:active{
+    background-color: #75ecb1;
+    border: 2px solid rgb(0, 0, 0);
+} 
 
 /***** For Mission section *****/
 
